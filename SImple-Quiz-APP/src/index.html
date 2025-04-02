@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizIt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="quiz-heading">QuizIt</h1>
+    <div class="app-body">
+        <h1 class="answer-key" style="display: none;">Answer Key</h1>
+        <div class="question-card">
+            <h2 id="question">Question</h2>
+            <form>
+                <label for="answer">Your Answer:</label><br>
+                <input type="text" id="answer" name="answer"><br>
+                <div id="res" class="idle">Empty</div><br>
+                <input type="submit" name="submit" value="Submit" class="submit"/>
+            </form>
+        </div>
+        <button id="restart-btn" style="display: none;">Restart</button>
+    </div>
+
+    <script src="sandbox.js"></script>
+</body>
+</html>
